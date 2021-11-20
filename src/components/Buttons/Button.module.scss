@@ -1,0 +1,96 @@
+@import '../../assets/colors';
+@import '../../assets/size';
+@import '../../assets/typography';
+
+.root.secondary,
+.root.primary {
+  padding: $large;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  @include typography(16px);
+  :nth-child(2) {
+    padding-left: $med;
+  }
+  span {
+    padding: 0 $small;
+  }
+}
+
+.root.xsmall {
+  padding: $xsmall;
+}
+
+.root.small {
+  padding: $small;
+}
+
+.root.medium {
+  padding: $med;
+}
+
+.root.large {
+  padding: $large;
+}
+
+.root.xlarge {
+  padding: $xlarge;
+}
+
+.root.xxlarge {
+  padding: $xxlarge;
+}
+
+.root.primary:disabled .progress,
+.root.secondary:disabled .progress {
+  color: #757982;
+}
+
+// Primary
+.root.primary {
+  background-color: $artichoke;
+  color: $white;
+}
+
+.root.primary .progress {
+  color: $white;
+}
+
+.root.primary:hover {
+  background-color: $artichoke;
+}
+
+.root.primary:active {
+  background-color: $artichoke;
+}
+
+.root.primary:disabled {
+  background-color: $grey_04;
+  color: $ruby;
+}
+
+// Secondary
+
+.root.secondary {
+  background-color: $bone;
+  color: $artichoke;
+  border: 2px solid $ruby;
+}
+
+.root.secondary .progress {
+  color: $artichoke;
+}
+
+.root.secondary:hover {
+  background-color: $grey_03;
+}
+
+.root.secondary:active {
+  background-color: $grey_03;
+}
+
+.root.secondary:disabled {
+  background-color: $artichoke;
+  color: $black;
+  border: 2px solid $grey_20;
+}

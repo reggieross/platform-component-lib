@@ -1,0 +1,51 @@
+@import '../../../assets/size';
+@import '../../../assets/colors';
+@import '../../../assets/typography';
+
+.root {
+  .text-field-container,
+  .error-message-container {
+    width: 100%;
+    text-align: left;
+  }
+
+  .text-field-container {
+    display: inline-flex;
+    align-items: center;
+
+    > :first-child {
+      margin-right: $large;
+    }
+  }
+
+  .error-message-container {
+    color: $error;
+    margin-top: $xsmall;
+    @include typography(14px);
+  }
+
+  .tool-tip {
+    path {
+      color: $artichoke;
+    }
+  }
+
+  [aria-label='error-icon'] {
+    path {
+      color: $error;
+    }
+  }
+
+  path {
+    color: $artichoke;
+  }
+
+  .error.text-field-container {
+    label {
+      color: $error;
+    }
+    fieldset {
+      border-color: $error;
+    }
+  }
+}

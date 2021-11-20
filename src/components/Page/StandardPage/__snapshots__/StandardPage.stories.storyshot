@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties Layout/Standard Page Default 1`] = `
+<div>
+  <div
+    className="root"
+  >
+    Hello World
+  </div>
+</div>
+`;

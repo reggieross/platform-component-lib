@@ -1,0 +1,61 @@
+@import '../../../assets/columns';
+@import '../../../assets/colors';
+@import '../../../assets/size';
+@import '../../../assets/mediaQueries';
+
+.root {
+  @include responsiveColumn(12);
+  @include for-large-desktop {
+    @include responsiveColumn(24);
+  }
+
+  height: 100vh;
+  display: flex;
+  margin: 0 auto;
+
+  .colored-side {
+    background: $grey_20;
+  }
+
+  @include for-desktop {
+    .colored-side {
+      @include responsiveColumn(5);
+    }
+  }
+
+  @include for-large-desktop {
+    .colored-side {
+      @include responsiveColumn(10);
+    }
+  }
+
+  @include for-phone {
+    .colored-side {
+      @include responsiveColumn(0);
+    }
+  }
+
+  @include for-tablet {
+    .colored-side {
+      @include responsiveColumn(0);
+    }
+  }
+
+  .main-content {
+    padding: 0 $xlarge;
+    @include responsiveColumn(7);
+    @include for-large-desktop {
+      @include responsiveColumn(14);
+    }
+
+    @include for-phone {
+      display: flex;
+      justify-content: center;
+      width: 93%;
+    }
+    @include for-tablet {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

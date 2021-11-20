@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties Column Example Default 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="oneCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="twoCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="threeCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="fourCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="fiveCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="sixCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="sevenCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="eightCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="nineCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="tenCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="elevenCol"
+  >
+    Hello World
+  </div>
+  <div
+    className="twelveCol"
+  >
+    Hello World
+  </div>
+</div>
+`;

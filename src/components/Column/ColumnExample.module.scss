@@ -1,0 +1,71 @@
+@import "../../assets/columns";
+
+.root {
+  div:nth-child(odd) {
+    background: red;
+  }
+
+  div {
+    background: aliceblue;
+  }
+}
+
+.oneCol {
+  @include responsiveColumn(1);
+  height: 100px;
+}
+
+.twoCol {
+  @include responsiveColumn(2);
+  height: 100px;
+}
+
+.threeCol {
+  @include responsiveColumn(3);
+  height: 100px;
+}
+
+.fourCol {
+  @include responsiveColumn(4);
+  height: 100px;
+}
+
+.fiveCol {
+  @include responsiveColumn(5);
+  height: 100px;
+}
+
+.sixCol {
+  @include responsiveColumn(6);
+  height: 100px;
+}
+
+.sevenCol {
+  @include responsiveColumn(7);
+  height: 100px;
+}
+
+.eightCol {
+  @include responsiveColumn(8);
+  height: 100px;
+}
+
+.nineCol {
+  @include responsiveColumn(9);
+  height: 100px;
+}
+
+.tenCol {
+  @include responsiveColumn(10);
+  height: 100px;
+}
+
+.elevenCol {
+  @include responsiveColumn(11);
+  height: 100px;
+}
+
+.twelveCol {
+  @include responsiveColumn(12);
+  height: 100px;
+}

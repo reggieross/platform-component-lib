@@ -1,0 +1,10 @@
+$col_width: 83px;
+$gutter_width: 40px;
+
+@mixin responsiveColumn($numberCols) {
+  width: calc(
+    (#{$col_width} * #{$numberCols}) +
+      ((#{$gutter_width} * (#{$numberCols} - 1)))
+  );
+  max-width: 100%;
+}

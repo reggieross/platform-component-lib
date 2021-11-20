@@ -1,0 +1,73 @@
+@import "src/assets/colors";
+@import "src/assets/typography";
+
+.loading-container {
+  width: 100%;
+  .loading-indicator {
+    background: $artichoke;
+
+    > :last-child,
+    > :first-child {
+      background: $ruby;
+    }
+  }
+}
+
+.root {
+  position: relative;
+  width: 100%;
+
+  input {
+    width: 98%;
+    min-height: 48px;
+    @include typography(16px);
+    border-radius: 3px;
+    border: 1px solid #cbcdcf;
+  }
+
+  input:focus {
+    outline: #cbcdcf;
+  }
+
+  .menu.open,
+  .menu {
+    position: absolute;
+    max-height: 175px;
+    height: 175px;
+    width: 100%;
+    background-color: $artichoke;
+    overflow: scroll;
+    border-radius: 4px;
+    top: 57px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    z-index: 5;
+  }
+
+  .menu-item {
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    @include typography(16px)
+  }
+
+  .menu-item:hover {
+    cursor: pointer;
+    background: rgba(0, 95, 134, 0.2);
+  }
+}
+
+.root.front-icon {
+  display: flex;
+  align-items: center;
+
+  input {
+    padding-left: 35px;
+  }
+
+  > :first-child {
+    position: absolute;
+    left: 5px;
+    color: #757982;
+  }
+}

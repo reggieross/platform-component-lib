@@ -1,0 +1,8 @@
+@import "../../../assets/columns";
+@import "../../../assets/colors";
+
+.root {
+  @include responsiveColumn(12);
+  height: 100vh;
+  background: $artichoke;
+}

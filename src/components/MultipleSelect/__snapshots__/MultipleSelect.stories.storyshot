@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties Multipleselect Multipleselect 1`] = `
+<div
+  className="MuiFormControl-root makeStyles-root-136"
+>
+  <div
+    aria-label="selectedOption"
+    className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+    onClick={[Function]}
+  >
+    <div
+      aria-haspopup="listbox"
+      aria-labelledby="select"
+      className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+      id="select"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      Select a value
+    </div>
+    <input
+      aria-hidden={true}
+      className="MuiSelect-nativeInput"
+      onAnimationStart={[Function]}
+      onChange={[Function]}
+      required={false}
+      tabIndex={-1}
+      value="Select a value"
+    />
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M7 10l5 5 5-5z"
+      />
+    </svg>
+    <fieldset
+      aria-hidden={true}
+      className="PrivateNotchedOutline-root-137 MuiOutlinedInput-notchedOutline"
+      style={
+        Object {
+          "paddingLeft": 8,
+        }
+      }
+    >
+      <legend
+        className="PrivateNotchedOutline-legend-138"
+        style={
+          Object {
+            "width": 0.01,
+          }
+        }
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "&#8203;",
+            }
+          }
+        />
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;

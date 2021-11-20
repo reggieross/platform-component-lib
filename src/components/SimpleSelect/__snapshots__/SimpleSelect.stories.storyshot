@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties SimpleSelect Default 1`] = `
+<div
+  className="loading-container"
+  onClick={[Function]}
+  onTouchEnd={[Function]}
+>
+  <div
+    className="root end-icon"
+  >
+    <input
+      onFocus={[Function]}
+      readOnly={true}
+      tabIndex={0}
+      value=""
+    />
+    <div
+      className="icon"
+    >
+      
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FileProperties SimpleSelect State managed outside the component w/ Reset Button 1`] = `
+<div>
+  <div
+    className="loading-container"
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+  >
+    <div
+      className="root end-icon"
+    >
+      <input
+        onFocus={[Function]}
+        placeholder="State"
+        readOnly={true}
+        tabIndex={0}
+        value=""
+      />
+      <div
+        className="icon"
+      >
+        
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined root primary large"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      <span>
+        Reset
+      </span>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`FileProperties SimpleSelect State managed outside the component w/ Reset Icon 1`] = `
+<div>
+  <div
+    className="loading-container"
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+  >
+    <div
+      className="root end-icon"
+    >
+      <input
+        onFocus={[Function]}
+        placeholder="State"
+        readOnly={true}
+        tabIndex={0}
+        value=""
+      />
+      <div
+        className="icon"
+      >
+        
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FileProperties SimpleSelect With placeholder 1`] = `
+<div
+  className="loading-container"
+  onClick={[Function]}
+  onTouchEnd={[Function]}
+>
+  <div
+    className="root end-icon"
+  >
+    <input
+      onFocus={[Function]}
+      placeholder="Select state"
+      readOnly={true}
+      tabIndex={0}
+      value=""
+    />
+    <div
+      className="icon"
+    >
+      
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FileProperties SimpleSelect loading state 1`] = `
+<div>
+  <div
+    className="loading-container"
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+  >
+    <div
+      className="root end-icon"
+    >
+      <input
+        onFocus={[Function]}
+        placeholder="State"
+        readOnly={true}
+        tabIndex={0}
+        value=""
+      />
+      <div
+        className="icon"
+      >
+        
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

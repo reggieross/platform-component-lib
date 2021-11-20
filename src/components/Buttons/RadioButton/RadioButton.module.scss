@@ -1,0 +1,9 @@
+@import 'src/assets/colors';
+
+.root {
+  label {
+    .radio:hover {
+      background-color: transparent;
+    }
+  }
+}

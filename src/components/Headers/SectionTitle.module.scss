@@ -1,0 +1,10 @@
+@import "src/assets/colors";
+@import "src/assets/typography";
+@import "src/assets/size";
+
+.section-title {
+  @include headerTypography(20pt);
+  color: $black;
+  padding-bottom: $small;
+  border-bottom: 1px solid $grey_60;
+}

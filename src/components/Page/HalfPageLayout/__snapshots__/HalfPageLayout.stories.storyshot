@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties Layout/Half Page Layout Default 1`] = `
+<div>
+  <div
+    className="root"
+  >
+    <div
+      className="colored-side"
+    />
+    <div
+      className="main-content"
+    >
+      Hello World
+    </div>
+  </div>
+</div>
+`;

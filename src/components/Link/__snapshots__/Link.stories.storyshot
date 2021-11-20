@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties Link Default 1`] = `
+<a
+  className="root"
+>
+  Forgot Your password?
+</a>
+`;
+
+exports[`FileProperties Link Link Disabled 1`] = `
+<a
+  aria-disabled={true}
+  className="root disabled"
+>
+  Forgot your password?
+</a>
+`;

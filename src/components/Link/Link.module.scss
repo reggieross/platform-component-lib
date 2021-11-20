@@ -1,0 +1,18 @@
+@import '../../assets/colors';
+@import '../../assets/typography';
+
+.root {
+  @include typography(16px);
+  cursor: pointer;
+  text-align: left;
+  font-weight: bold;
+}
+
+.root:hover {
+  color: $grey_20;
+}
+
+.root:hover.disabled,
+.root.disabled {
+  color: $grey_60;
+}

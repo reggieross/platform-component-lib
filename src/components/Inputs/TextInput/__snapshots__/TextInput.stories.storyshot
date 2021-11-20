@@ -1,0 +1,591 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties Text Input Default 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-89 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+        data-shrink={false}
+      >
+        Name
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-90 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-92"
+          >
+            <span>
+              Name
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`FileProperties Text Input Disabled 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-94 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-disabled Mui-disabled"
+        data-shrink={false}
+      >
+        Name
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root Mui-disabled Mui-disabled MuiInputBase-fullWidth MuiInputBase-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input Mui-disabled Mui-disabled"
+          disabled={true}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-95 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-97"
+          >
+            <span>
+              Name
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`FileProperties Text Input Hidden Text 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-129 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+        data-shrink={false}
+      >
+        Password
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="password"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-130 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-132"
+          >
+            <span>
+              Password
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`FileProperties Text Input With Error Color 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container error"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-104 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-error Mui-error"
+        data-shrink={false}
+      >
+        Email
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={true}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+        <div
+          aria-label="input-icon"
+          className="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+        >
+          <svg
+            aria-hidden={true}
+            aria-label="error-icon"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+            />
+          </svg>
+        </div>
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-105 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-107"
+          >
+            <span>
+              Email
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    Some error
+  </div>
+</div>
+`;
+
+exports[`FileProperties Text Input With Icon & error handling 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-119 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+        data-shrink={false}
+      >
+        Date
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+        <div
+          aria-label="input-icon"
+          className="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+            />
+          </svg>
+        </div>
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-120 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-122"
+          >
+            <span>
+              Date
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`FileProperties Text Input With Icon 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-109 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+        data-shrink={false}
+      >
+        Date
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+        <div
+          aria-label="input-icon"
+          className="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+            />
+          </svg>
+        </div>
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-110 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-112"
+          >
+            <span>
+              Date
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`FileProperties Text Input With Icon in front 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-114 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+        data-shrink={true}
+      >
+        Minimum Amount
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart"
+        onClick={[Function]}
+      >
+        <div
+          className="MuiInputAdornment-root MuiInputAdornment-positionStart"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"
+            />
+          </svg>
+        </div>
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-115 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-117 PrivateNotchedOutline-legendNotched-118"
+          >
+            <span>
+              Minimum Amount
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`FileProperties Text Input With Tooltip 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-99 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+        data-shrink={false}
+      >
+        SSN
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-100 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-102"
+          >
+            <span>
+              SSN
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <svg
+      aria-describedby={null}
+      aria-hidden={true}
+      aria-label="Hello: input help"
+      className="MuiSvgIcon-root tool-tip"
+      focusable="false"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      title="Hello"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
+      />
+    </svg>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`FileProperties Text Input With validation on load 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="text-field-container"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-124 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+        data-shrink={true}
+      >
+        Date
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value="This is my initial value"
+        />
+        <div
+          aria-label="input-icon"
+          className="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+            />
+          </svg>
+        </div>
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-125 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-127 PrivateNotchedOutline-legendNotched-128"
+          >
+            <span>
+              Date
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="error-message-container"
+  >
+    
+  </div>
+</div>
+`;
